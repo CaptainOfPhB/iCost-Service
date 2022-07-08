@@ -6,6 +6,8 @@ FROM mcr.microsoft.com/vscode/devcontainers/ruby:0-${VARIANT}
 
 # Install Rails
 RUN gem install rails webdrivers 
+RUN gem sources --add https://mirrors.tuna.tsinghua.edu.cn/rubygems/ --remove https://rubygems.org/
+RUN bundle config mirror.https://rubygems.org https://mirrors.tuna.tsinghua.edu.cn/rubygems
 
 # Default value to allow debug server to serve content over GitHub Codespace's port forwarding service
 # The value is a comma-separated list of allowed domains 
