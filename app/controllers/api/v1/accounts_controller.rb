@@ -10,7 +10,7 @@ class Api::V1::AccountsController < ApplicationController
     render json: fake_accounts
   end
 
-  def destory
+  def destroy
   end
 
   def update
