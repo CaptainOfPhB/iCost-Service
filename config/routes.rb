@@ -2,11 +2,11 @@ Rails.application.routes.draw do
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
   namespace :api do
     namespace :v1 do
-      resources :validation_codes, only: [:create]
-      resource :session, only: [:create, :destroy]
-      resources :user, only: [:show]
+      resource  :validation_code, only: [:create]
+      resource  :session,         only: [:create, :destroy]
+      resource  :user,            only: [:create, :show]
       resources :accounts
-      resources :tags
+      resources :tags,            only: [:create, :update, :destroy, :index]
     end
   end
 
