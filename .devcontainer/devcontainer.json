@@ -19,7 +19,8 @@
 				"Hridoy.rails-snippets",
 				"wingrunr21.vscode-ruby",
 				"GitHub.copilot",
-				"ckolkman.vscode-postgres"
+				"ckolkman.vscode-postgres",
+				"aki77.rails-db-schema"
 			]
 		}
 	},
