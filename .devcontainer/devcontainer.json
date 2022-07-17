@@ -18,7 +18,8 @@
 				"kaiwood.endwise",
 				"Hridoy.rails-snippets",
 				"wingrunr21.vscode-ruby",
-				"GitHub.copilot"
+				"GitHub.copilot",
+				"ckolkman.vscode-postgres"
 			]
 		}
 	},
