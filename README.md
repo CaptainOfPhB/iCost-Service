@@ -1,24 +1,7 @@
-# README
+# iCost-Service
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The backend service for [iCost](https://github.com/CaptainOfPhb/iCost), based on [ruby on rails](https://rubyonrails.org/).
 
-Things you may want to cover:
+## TODOs
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- [ ] Add api docs using [apipie-rails](https://github.com/Apipie/apipie-rails)
