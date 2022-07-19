@@ -4,7 +4,7 @@ Rails.application.routes.draw do
     namespace :v1 do
       resource  :validation_code, only: [:create]
       resource  :session,         only: [:create, :destroy]
-      resource  :user,            only: [:create, :show]
+      resource  :user,            only: [:create, :update, :destroy, :show ]
       resources :accounts
       resources :tags,            only: [:create, :update, :destroy, :index]
     end
