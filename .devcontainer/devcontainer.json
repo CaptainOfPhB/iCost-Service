@@ -20,7 +20,8 @@
 				"wingrunr21.vscode-ruby",
 				"GitHub.copilot",
 				"ckolkman.vscode-postgres",
-				"aki77.rails-db-schema"
+				"aki77.rails-db-schema",
+				"humao.rest-client"
 			]
 		}
 	},
