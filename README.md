@@ -5,3 +5,4 @@ The backend service for [iCost](https://github.com/CaptainOfPhb/iCost), based on
 ## TODOs
 
 - [ ] Add api docs using [apipie-rails](https://github.com/Apipie/apipie-rails)
+- [ ] Automatically launch specs when files are modified using [guard-rspec](https://github.com/guard/guard-rspec).

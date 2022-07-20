@@ -42,6 +42,8 @@ group :development, :test do
   gem "solargraph", "~> 0.44.3"
   gem "rufo"
   gem 'rspec-rails', '~> 5.0.0'
+  gem 'guard'
+  gem 'guard-rspec', require: false
 end
 
 group :development do
